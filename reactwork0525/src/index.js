@@ -5,14 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Member from './Practice11/Member';
 import Profile from './Practice11/Profile';
+import Calc from './ch12/Calc';
+import WelcomeDialog from './ch13/WelcomeDialog';
+import ProfileCard from './Practice13/ProfileCard';
+import MainContext from './ch14/MainContext';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <MenuitemList /> */}
     {/* <MessageList /> */}
     {/* <NameForm /> */}
-    <Profile />
-    <Member />
+    <MainContext />
   </React.StrictMode>,
   document.getElementById('root'),
 );

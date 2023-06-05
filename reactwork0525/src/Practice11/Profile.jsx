@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import Myimage from './lavar.png';
 const styles = {
   image: {
     with: 400,
@@ -25,7 +26,7 @@ const Profile = () => {
     <div>
       {/* 업로드 된 이미지 미리보기 */}
       <img
-        src={imgFile ? imgFile : `../user_basic.jpg`}
+        src={imgFile ? imgFile : Myimage}
         alt="프로필 이미지"
         style={styles.image}
       />
