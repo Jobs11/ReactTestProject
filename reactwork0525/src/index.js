@@ -9,13 +9,18 @@ import Calc from './ch12/Calc';
 import WelcomeDialog from './ch13/WelcomeDialog';
 import ProfileCard from './Practice13/ProfileCard';
 import MainContext from './ch14/MainContext';
+import Mainpage from './ch15/Mainpage';
+import Sample from './ch15/Sample';
+import Blocks from './Practice15/Blocks';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <MenuitemList /> */}
     {/* <MessageList /> */}
     {/* <NameForm /> */}
-    <MainContext />
+    <Mainpage />
+    <Sample />
+    <Blocks />
   </React.StrictMode>,
   document.getElementById('root'),
 );
